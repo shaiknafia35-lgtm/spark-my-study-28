@@ -159,14 +159,14 @@ function Dashboard() {
             <h1 className="mt-1 text-3xl font-bold sm:text-4xl">
               Your PDF has been analyzed! 🔥
             </h1>
-            <p className="mt-2 flex flex-wrap items-center gap-2 text-sm text-muted-foreground">
+            <div className="mt-2 flex flex-wrap items-center gap-2 text-sm text-muted-foreground">
               <FileText className="size-4" /> {doc.fileName}
               {doc.demo && (
                 <Badge variant="outline" className="border-spark/40 bg-spark/15 text-spark-foreground">
                   Demo Mode
                 </Badge>
               )}
-            </p>
+            </div>
           </div>
           <div className="flex gap-2">
             <Button
